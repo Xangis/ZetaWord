@@ -2,11 +2,11 @@ ZetaWord
 ========
 
 A Notepad replacement for Windows. It's better than Notepad in some ways, worse
-in others.
+in others. It was originally released at http://zetacentauri.com
 
-A compiled, installable version of ZetaWord is available at:
+![ZetaWord Screenshot](https://github.com/Xangis/ZetaWord/blob/master/images/ZetaWord1.png)
 
-http://zetacentauri.com/software_zetaword.htm
+A compiled, installable version of ZetaWord is available in the installer directory.
 
 ZetaWord is written using C# and .NET 2.0.  It builds and runs on Windows and
 also works on Linux via Mono. A project is included for Visual Studio 11. It doesn't
