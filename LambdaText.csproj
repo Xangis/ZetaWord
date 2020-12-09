@@ -8,8 +8,8 @@
     <ProjectGuid>{35BDD81B-E3EF-4873-A823-31E81CD3B3B3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ZetaWord</RootNamespace>
-    <AssemblyName>ZetaWord</AssemblyName>
+    <RootNamespace>LambdaText</RootNamespace>
+    <AssemblyName>LambdaText</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
