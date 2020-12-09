@@ -1,6 +1,6 @@
-﻿namespace ZetaWord
+﻿namespace LambdaText
 {
-    partial class ZetaWord
+    partial class LambdaText
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZetaWord));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LambdaText));
             this.rtbDocument = new System.Windows.Forms.RichTextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -466,7 +466,7 @@
             this.reverseLineOrderToolStripMenuItem.Text = "Reverse Line Order";
             this.reverseLineOrderToolStripMenuItem.Click += new System.EventHandler(this.reverseLineOrderToolStripMenuItem_Click);
             // 
-            // ZetaWord
+            // LambdaText
             // 
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -477,8 +477,8 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "ZetaWord";
-            this.Text = "ZetaWord";
+            this.Name = "LambdaText";
+            this.Text = "LambdaText";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

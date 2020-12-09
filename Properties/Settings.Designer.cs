@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ZetaWord.Properties {
+namespace LambdaText.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

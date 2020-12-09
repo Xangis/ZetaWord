@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ZetaWord
+namespace LambdaText
 {
     public partial class About : Form
     {
@@ -18,7 +18,7 @@ namespace ZetaWord
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://zetacentauri.com");
+            System.Diagnostics.Process.Start("https://lambdacentauri.com");
         }
 
         private void btnClose_Click(object sender, EventArgs e)

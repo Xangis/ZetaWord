@@ -12,9 +12,9 @@ using System.IO;
 using System.ComponentModel.Design;
 using System.Globalization;
 
-namespace ZetaWord
+namespace LambdaText
 {
-    public partial class ZetaWord : Form
+    public partial class LambdaText : Form
     {
         String filename = String.Empty;
         String lastFind = String.Empty;
@@ -24,7 +24,7 @@ namespace ZetaWord
         int initialTextLength = 0;
         bool lineNumbersShown = false;
 
-        public ZetaWord(String file)
+        public LambdaText(String file)
         {
             InitializeComponent();
             RefreshMRUList();
@@ -407,11 +407,11 @@ namespace ZetaWord
             filename = name;
             if (!String.IsNullOrEmpty(name))
             {
-                this.Text = "ZetaWord - " + filename;
+                this.Text = "LambdaText - " + filename;
             }
             else
             {
-                this.Text = "ZetaWord";
+                this.Text = "LambdaText";
             }
         }
 

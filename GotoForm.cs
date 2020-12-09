@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace ZetaWord
+namespace LambdaText
 {
     public partial class GotoForm : Form
     {

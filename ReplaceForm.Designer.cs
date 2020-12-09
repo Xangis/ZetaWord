@@ -1,4 +1,4 @@
-﻿namespace ZetaWord
+﻿namespace LambdaText
 {
     partial class ReplaceForm
     {

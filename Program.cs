@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace ZetaWord
+namespace LambdaText
 {
     static class Program
     {
@@ -17,11 +17,11 @@ namespace ZetaWord
             Application.SetCompatibleTextRenderingDefault(false);
             if (args.Length > 0)
             {
-                Application.Run(new ZetaWord(args[0]));
+                Application.Run(new LambdaText(args[0]));
             }
             else
             {
-                Application.Run(new ZetaWord(String.Empty));
+                Application.Run(new LambdaText(String.Empty));
             }
         }
 

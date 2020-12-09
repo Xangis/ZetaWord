@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ZetaWord")]
+[assembly: AssemblyTitle("LambdaText")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Zeta Centauri")]
-[assembly: AssemblyProduct("ZetaWord")]
+[assembly: AssemblyProduct("LambdaText")]
 [assembly: AssemblyCopyright("Copyright © 2012 Zeta Centauri")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

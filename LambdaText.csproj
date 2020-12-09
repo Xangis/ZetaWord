@@ -71,11 +71,11 @@
     <Compile Include="ReplaceForm.Designer.cs">
       <DependentUpon>ReplaceForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ZetaWord.cs">
+    <Compile Include="LambdaText.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ZetaWord.Designer.cs">
-      <DependentUpon>ZetaWord.cs</DependentUpon>
+    <Compile Include="LambdaText.Designer.cs">
+      <DependentUpon>LambdaText.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -91,8 +91,8 @@
     <EmbeddedResource Include="ReplaceForm.resx">
       <DependentUpon>ReplaceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ZetaWord.resx">
-      <DependentUpon>ZetaWord.cs</DependentUpon>
+    <EmbeddedResource Include="LambdaText.resx">
+      <DependentUpon>LambdaText.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,9 +118,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Notes.txt" />
     <Content Include="ZetaPad32.ico" />
-    <None Include="zetaword.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
