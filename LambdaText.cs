@@ -597,5 +597,10 @@ namespace LambdaText
                 rtbDocument.Text += item + "\r\n";
             }
         }
+
+        private void RenoveNewlinesnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rtbDocument.Text = rtbDocument.Text.Replace("\n", "");
+        }
     }
 }

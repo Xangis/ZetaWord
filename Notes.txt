@@ -1,0 +1,31 @@
+﻿Changes in version 1.06:
+
+* Added "remove newlines" menu item that removes all \n's from a document
+* Updated from .NET Framework 3.5 to .NET 4.5
+
+Changes in version 1.05:
+
+* Added the ability to reverse the order of all of the lines in a document.
+* Expanded the most-recently-used file list from 4 items to 8.
+
+Changes in version 1.04:
+
+* Added the ability to convert a document to all uppercase or all lowercase.
+* Fixed a problem with trying to load a recently-used file that no longer exists.
+
+Changes in version 1.03:
+
+* Added a most-recently-used file list for ease of opening recent files.
+* Fixed a problem with trying to click "Save" rather than "Save As" when saving a new file.
+
+Changes in version 1.02:
+
+* Added drag and drop to open files or paste text.
+* Added prompt to save a modified document.
+* Improved tab key functionality.
+* Improved delete key functionality.
+
+Changes in version 1.01:
+
+* Added function to insert date and time.
+* Improved delete selection functionality.

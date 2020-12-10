@@ -6,6 +6,7 @@
 #define MyAppPublisher "Lambda Centauri"
 #define MyAppURL "https://lambdacentauri.com/software_lambdatext.htm"
 #define MyAppExeName "LambdaText.exe"
+#define CodeDir "E:\code\LambdaTextEditor"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -23,10 +24,10 @@ DefaultDirName={pf}\Zeta Centauri\ZetaWord
 DisableDirPage=yes
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-LicenseFile=E:\code\LambdaTextEditor\LICENSE.TXT
-OutputDir=E:\code\LambdaTextEditor\bin\Release
-OutputBaseFilename={#MyAppName}{#MyAppVersion}Setup
-SetupIconFile=E:\code\LambdaTextEditor\ZetaPad16.ico
+LicenseFile={#CodeDir}\LICENSE.TXT
+OutputDir={#CodeDir}\installer
+OutputBaseFilename=LambdaTextEditor{#MyAppVersion}Setup
+SetupIconFile={#CodeDir}\images\Icon.ico
 UninstallDisplayIcon={app}\LambdaText.exe,0
 Compression=lzma
 SolidCompression=yes
@@ -39,7 +40,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "E:\code\LambdaTextEditor\bin\Release\LambdaText.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#CodeDir}\bin\Release\LambdaText.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

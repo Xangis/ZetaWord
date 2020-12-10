@@ -1,4 +1,4 @@
-# ZetaWord
+# Lambda Text Editor (formerly ZetaWord)
 
 A Notepad replacement for Windows. It's better than Notepad in some ways, worse
 in others. It was originally released at http://zetacentauri.com and was downloaded
