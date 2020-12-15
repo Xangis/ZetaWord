@@ -2,6 +2,7 @@
 
 * Added "remove newlines" menu item that removes all \n's from a document
 * Updated from .NET Framework 3.5 to .NET 4.5
+* Added manifest file and made app DPI aware.
 
 Changes in version 1.05:
 
