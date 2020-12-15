@@ -428,7 +428,7 @@
             this.renoveNewlinesnToolStripMenuItem.Name = "renoveNewlinesnToolStripMenuItem";
             this.renoveNewlinesnToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.renoveNewlinesnToolStripMenuItem.Text = "Renove Newlines (\\n)";
-            this.renoveNewlinesnToolStripMenuItem.Click += new System.EventHandler(this.RenoveNewlinesnToolStripMenuItem_Click);
+            this.renoveNewlinesnToolStripMenuItem.Click += new System.EventHandler(this.RemoveNewlinesnToolStripMenuItem_Click);
             // 
             // toolsToolStripMenuItem
             // 

@@ -598,7 +598,7 @@ namespace LambdaText
             }
         }
 
-        private void RenoveNewlinesnToolStripMenuItem_Click(object sender, EventArgs e)
+        private void RemoveNewlinesnToolStripMenuItem_Click(object sender, EventArgs e)
         {
             rtbDocument.Text = rtbDocument.Text.Replace("\n", "");
         }
